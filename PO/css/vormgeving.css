@@ -3,15 +3,488 @@ html, body {
     margin: 0;
 }
 
-body {
-    background: #5d524c;
-    color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    size: 14px;
-    padding-left: 10%;
+#menu {
+        font-size: 62,5%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #ffffff;
+        position: fixed;
+        width: 100%;
+        margin-top: 0%;
+        top: 0%;
+        z-index: 20;
+        font-family: 'DM Sans', sans-serif;
+        text-decoration: none
 }
 
-#vogel {
-    width: 225px;
+    
+    .horizontaal {
+        font-size: 2.0rem;
+        width: auto;
+        color: #111;
+        background-color: dodgerblue;
+        padding: 5px 15px;
+        margin: 0% 0;
+        text-align: left;
+        border: #111;
+        border: 10px;
+    }
+    
+    .horizontaal {
+        margin: 0% auto;
+        background-color: dodgerblue;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    .horizontaal li {
+        display: inline-block;
+        text-align: center;
+        margin: 0px 20px;
+    }
+  
+   .bedrijfskenmerk{
+    text-align: left;
+    width: 30px;
+    height: 30px
+
+   }
+    
+    .Knop-landingspagina{
+        font-size: 30px;
+        background-color: dodgerblue;
+        margin-top: -20%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        transform:translate(-50%,-50%); GEMARKEERD
+        z-index: 2;
+        position: absolute;
+        left: 50%;
+        width: 300px
+        
+
+    }
+    .Knop-landingspagina{
+        opacity: 80%;
+    }
+
+#knop{
+    color: white;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+}
+
+    #Afbeeldinglandpagina{
+        text-align: center;
+        margin: 0%;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+}
+
+#Achtergrond-tarieven{
     height: auto;
+    opacity: 85%;
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+#corel {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%; 
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid; 
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
+
+#corel2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid; 
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#corel3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%; 
+    left: 72.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid; 
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+}
+
+#Onderbalk{
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+    bottom: 0%;
+    top: 100%;
+    z-index: 20;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.Onderbalk-lijst {
+    width: auto;
+    color: #111;
+    background-color: dodgerblue;
+    padding: 30px;
+    margin: 0% 0;
+    text-align: left;
+    border: #111;
+    border: 10px;
+}
+
+.Onderbalk-lijst {
+    margin: 0% auto;
+    background-color: dodgerblue;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Onderbalk-lijst li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+
+#Flexbox-product {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid;
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    width: 700px;
+}
+
+#Flexbox-product2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    left: 45%;
+    z-index: 1;
+}
+
+
+
+#Knop-Kopen {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+}
+
+#omschrijving-product {
+    position: absolute;
+    top: 15%;
+    justify-content: center;
+    z-index: 50;
+}
+
+
+#Flexbox-product {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid;
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 500px;
+    width: 700px;
+}
+
+#Textarea1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    z-index: 15;
+    margin-top: -60%;
+}
+    
+
+#Textarea2 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-top: -12%;
+    z-index: 15;
+}
+
+#Aantal-ramen {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+    height: 10vh;
+}
+
+#Datum {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+    height: 10vh;
+}
+
+.Achtergrond-kopen{
+    display: flex;
+    z-index: 1;
+}
+
+.Knop-bevestigen{
+font-size: 20px;
+background-color: dodgerblue;
+margin-top: 1%;
+text-align: center;
+display: block;
+justify-content: center;
+transform:translate(-50%,-50%);
+z-index: 2;
+position: absolute;
+left: 50%;
+width: 250px;
+text-decoration: none;
+font-family: 'DM Sans', sans-serif;
+padding: 5px;
+}
+
+.Bedankt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #111;
+    margin-top: -45%;
+    background-color: transparent;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+#voorstellen{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35%; 
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid; 
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 275px;
+    text-align: center;
+    width: 600px;
+    text-decoration: none;
+    opacity: 85%;
+}
+
+#werkwijze{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%; 
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid; 
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    width: 600px;
+    text-decoration: none;
+    opacity: 85%;
+}
+
+#Motivatie{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%; 
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 5px black solid; 
+    background-color: rgb(184, 185, 185);
+    padding: 20px;
+    height: 250px;
+    text-align: center;
+    width: 600px;
+    text-decoration: none;
+    opacity: 85%;
+}
+
+.topcontact{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    padding: 70px;
+    left: 50%;
+    right: 50%;
+    font-size: large;
+    box-sizing: border-box;
+    z-index: 10;
+    position: relative;
+    transform: translate(-50%,-50%);
+    margin-top: 15%;
+    font-size: 25px;
+
+}
+
+.contactplaatje{
+margin-top: -45%;
+z-index: 1;
+position: relative;
+height: 600px;
+}
+
+#contactgegevens{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    left: 50%;
+    font-family: 'DM Sans', sans-serif;
+    flex-direction: column;
+}
+
+.socials{
+    justify-content: center;
+    text-align: center;
+}
+
+#feedbackgeven {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+    height: 20vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+}
+
+.Bevestigen2{
+    font-size: 20px;
+    background-color: dodgerblue;
+    margin-top: 2px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px;
 }
